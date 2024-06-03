@@ -1,0 +1,14 @@
+<html>
+    <head>
+        </head>
+        <body>
+        <div style = "background-color: turquoise;padding: 50px;margin: 170 px;text-align: center;font-size: 20px;"><p id="a"></p></div>
+            <script>
+            var basket1 = 23;
+            var basket2 = 14;
+            var totalGifts = basket1 + basket2;
+            document.getElementById("a").innerHTML = "Isha now has " + totalGifts + " gifts to distribute amongst her guests.";
+            </script>
+        
+            </body>
+            </html>
